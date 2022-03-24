@@ -2,7 +2,7 @@
 
 In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)
 
-Semantic HTML is a way of writing code to be easier to read and more accessible to search engines. And also for humans. Instead of constantly inventing new ways to describe what role elements have, you can use agreed on terms instead.
+**Semantic HTML** is a way of writing code to be easier to read and more accessible to search engines. And also for humans. Instead of constantly inventing new ways to describe what role elements have, you can use agreed on terms instead.
 
 For example, which of the following elements is a button?
 
@@ -31,7 +31,7 @@ When a screen reader or any assistive device scans a web page, it gets informati
 
 **Findability**
 
-With semantic HTML, you can increase your page SEO score, as search crawler knows part of the page they are crawling. Search engines emphasise keywords inside headings, links, etc., than keywords included in non-semantic <div>s, etc.
+With semantic HTML, you can increase your page SEO score, as search crawler knows part of the page they are crawling. Search engines emphasise keywords inside headings, links, etc., than keywords included in non-semantic `<div>`s, etc.
 
 A Search Crawler is an Internet bot that browses through internet, downloads and indexes content. It is widely used to learn each webpage on the web to retrieve information. It is sometimes called a spider bot or spider.
 
@@ -40,7 +40,7 @@ A Search Crawler is an Internet bot that browses through internet, downloads and
 Writing semantic HTML makes your code easier to understand, making the source code more readable for other developers.
 They are machine and human-readable.
 
-## HTML elements
+## HTML elements you should know
 
 ### Everyday use
 
@@ -124,23 +124,20 @@ HTML code in all web applications should comply with the standards and recommend
 
 ### Tools for validation
 
-[Validator.nu](https://validator.nu/): A new-school validator that validates HTML5, ARIA, SVG 1.1 and MathML 2.0: it goes through the entire document pointing out places where your markup doesn’t follow that doctype correctly (ie where there are errors). This is the one we recommend if you are using the HTML5 doctype, like we do throughout most of this course.
+1. [Validator.nu](https://validator.nu/)
+2. [Grunt HTML validator](https://github.com/validator/grunt-html)
+3. [Gulp HTML validator](https://github.com/validator/gulp-html)
 
-[The W3C MarkUp Validator](https://validator.w3.org/)
-: This looks at the (X)HTML doctype you are using for the document you give it to check, and then checks your markup accordingly. This is the one we recommend if you are using an HTML4 or XHTML1.x doctype. It does validate HTML5, but validator.nu is arguably more up to date.
+For CSS:
 
-[The W3C Link Checker](https://validator.w3.org/checklink)
-: This looks through a document you give it to check, and tests all the links inside that document to make sure they are not broken (ie the `<href>` values point to resources that don’t exist).
-
-[The W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-: As you’ve probably guessed, this will go through a CSS (or HTML/CSS) document and check that the CSS follows the CSS specs properly.
+- [The W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ## Tools for better HTML in VSc
 
 **Built in:**
 
 - Emmet
-- Auto Rename Tag (Settings -> Linked Editing)
+- Auto Rename Tag (_Settings -> Linked Editing_)
 
 **Extensions**
 
